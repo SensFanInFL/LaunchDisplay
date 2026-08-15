@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <defs>
+    <style>
+      .bg { fill: #f4f7fb; }
+      .board { fill: #ffffff; stroke: #c4cfdd; stroke-width: 3; rx: 24; }
+      .device { fill: #19202f; stroke: #0d1320; stroke-width: 3; rx: 18; }
+      .tft { fill: #0f1a2c; stroke: #31415f; stroke-width: 3; rx: 16; }
+      .title { fill: #182235; font: 700 34px Arial, sans-serif; }
+      .label { fill: #f2f7ff; font: 700 22px Arial, sans-serif; }
+      .small { fill: #4b5b78; font: 16px Arial, sans-serif; }
+      .wire { fill: none; stroke-width: 9; stroke-linecap: round; }
+      .pin { fill: #d9e3f7; font: 17px Arial, sans-serif; }
+      .legend { fill: #ffffff; stroke: #c7d2e2; stroke-width: 2; rx: 18; }
+    </style>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1200" height="720"/>
+  <text class="title" x="60" y="64">LaunchDisplay Wiring Reference</text>
+  <text class="small" x="60" y="94">Breadboard-style view for the final harness colors</text>
+
+  <rect class="board" x="60" y="130" width="1080" height="540" rx="24"/>
+  <rect class="device" x="110" y="220" width="240" height="300" rx="20"/>
+  <text class="label" x="160" y="275">ESP32-C3</text>
+  <text class="small" x="155" y="305">TENSTAR Zero</text>
+  <text class="pin" x="150" y="350">GPIO4</text>
+  <text class="pin" x="150" y="388">GPIO6</text>
+  <text class="pin" x="150" y="426">GPIO7</text>
+  <text class="pin" x="150" y="464">GPIO1</text>
+  <text class="pin" x="240" y="350">GPIO0</text>
+  <text class="pin" x="240" y="388">GPIO5</text>
+
+  <rect class="tft" x="840" y="180" width="280" height="380" rx="20"/>
+  <text class="label" x="912" y="235">TFT</text>
+  <text class="small" x="865" y="265">Estardyn 3.5&quot; ST7796S</text>
+  <text class="pin" x="885" y="330">SCL</text>
+  <text class="pin" x="885" y="368">SDA</text>
+  <text class="pin" x="885" y="406">CS</text>
+  <text class="pin" x="885" y="444">DC</text>
+  <text class="pin" x="885" y="482">RST</text>
+  <text class="pin" x="1000" y="368">BL</text>
+  <text class="pin" x="1000" y="406">VCC</text>
+  <text class="pin" x="1000" y="444">GND</text>
+
+  <path class="wire" stroke="#ff9a2e" d="M 350 350 C 470 350, 560 330, 835 330"/>
+  <path class="wire" stroke="#ffe34d" d="M 350 388 C 470 388, 560 368, 835 368"/>
+  <path class="wire" stroke="#4d7cff" d="M 350 426 C 470 426, 560 406, 835 406"/>
+  <path class="wire" stroke="#3cd26f" d="M 350 464 C 470 464, 560 444, 835 444"/>
+  <path class="wire" stroke="#ffffff" d="M 350 350 C 510 350, 600 482, 835 482"/>
+  <path class="wire" stroke="#c26cff" d="M 350 388 C 510 388, 620 482, 930 368"/>
+  <path class="wire" stroke="#ff4d4d" d="M 350 426 C 510 426, 620 406, 930 406"/>
+  <path class="wire" stroke="#808080" d="M 350 464 C 510 464, 620 444, 930 444"/>
+
+  <rect class="legend" x="430" y="210" width="320" height="300" rx="20"/>
+  <text class="label" x="520" y="256">Color key</text>
+  <text class="small" x="470" y="300">Orange  - GPIO4  → SCL / SCLK</text>
+  <text class="small" x="470" y="336">Yellow  - GPIO6  → SDA / MOSI</text>
+  <text class="small" x="470" y="372">Blue    - GPIO7  → CS</text>
+  <text class="small" x="470" y="408">Green   - GPIO1  → DC</text>
+  <text class="small" x="470" y="444">White   - GPIO0  → RST</text>
+  <text class="small" x="470" y="480">Purple  - GPIO5  → BL</text>
+  <text class="small" x="470" y="516">Red     - 5V     → VCC</text>
+  <text class="small" x="470" y="552">Gray    - GND    → GND</text>
+</svg>
