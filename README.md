@@ -1,4 +1,5 @@
 # LaunchDisplay
+<<<<<<< HEAD
 
 Minimal firmware bring-up for the LaunchDisplay hardware:
 
@@ -70,3 +71,6 @@ The active pin map is documented in [`include/DisplayConfig.h`](./include/Displa
 - This is a bring-up target, not the full LaunchDisplay app.
 - The display is intentionally rendered with a single full-screen hello-world page before any launch API work.
 - If the panel revision turns out to want a different LovyanGFX driver class, that change should stay isolated to `include/DisplayConfig.h`.
+=======
+A desktop display for upcoming rocket launches running on an ESP32 C3. 
+>>>>>>> origin/main
