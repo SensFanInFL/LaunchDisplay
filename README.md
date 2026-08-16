@@ -1,8 +1,6 @@
 # LaunchDisplay
 
-LaunchDisplay is a Wi-Fi-connected ESP32-C3 launch countdown appliance for a 320x480 SPI TFT display. It shows the next relevant rocket launch, counts down to liftoff, tracks post-launch T+ behavior, and can be configured entirely from its built-in web setup pages.
-
-This project is a standalone firmware repo. It is not part of PortfolioFrame or local-flight-radar.
+LaunchDisplay is a Wi-Fi-connected ESP32-C3 launch countdown device for a 320x480 SPI TFT display. It shows the next relevant rocket launch, counts down to liftoff, tracks post-launch T+ behavior, and can be configured entirely from its built-in web setup pages.
 
 ## What It Does
 
@@ -22,7 +20,7 @@ This project is a standalone firmware repo. It is not part of PortfolioFrame or 
 
 ## Hardware
 
-Verified bring-up hardware:
+Verified hardware:
 
 - Board: TENSTAR ESP32-C3-Zero
 - Display: Estardyn 3.5" 320x480 ST7796S SPI TFT
