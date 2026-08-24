@@ -42,6 +42,10 @@ Current verified wiring:
 | CS | GPIO7 |
 | BL | GPIO5 |
 
+## STL files
+
+STL files are in the STL directory, along with information on assembling the case.
+
 ## Display Behavior
 
 ### Normal launch view
@@ -245,7 +249,5 @@ The display is built around the idea that the data on-screen should be authorita
 MIT
 
 ## Roadmap
-
-I will be shipping a completed system to a friend of mine, who will be designing the 3D printed case for LaunchDisplay. Once his work is complete, those file(s) will be included on this repository. 
 
 Keep in mind that not all ESP32's are the same dimensions as the one I used, so you will most likely need to adjust things to hold your ESP32 properly. 
