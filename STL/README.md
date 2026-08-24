@@ -19,9 +19,9 @@ Install the threaded inserts into the holes for them on the back
 
 <img src="Display install.jpg" width="300"/>
 
-Glue the bracket to the ESP32 holder as shown. Cyanoacrylate gue will work fine. 
+Glue the bracket to the ESP32 holder as shown. Cyanoacrylate glue will work fine. 
 
-- Note: the brackewt supplied in the STLs is properly sized. Glue the long side of the bracket to the ESP32 holder, butted against the bottom.
+- Note: the bracket supplied in the STLs is properly sized. Glue the long side of the bracket to the ESP32 holder, butted against the bottom.
 - The bracket should set approximately 3mm above the top side of the ESP32 holder.
 
 <img src="Bracket Mount.jpg" width="300"/>
